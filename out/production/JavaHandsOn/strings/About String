@@ -1,0 +1,14 @@
+1. String is immutable means once assigned it cannot be modified. Any modification on a string object will
+   lead to new object creation.
+
+2. String values are stored in memory depends on how we create them.
+
+3. Method 1: String literals : - String str = "rohan";
+   In case of String literals every time compiler checks in string pool which is inside heap memory if found
+   than it will be reused.
+
+4. Method 2: Create String object using "new" keyword
+   String str = new String("rohan");
+   In this case every time new object will be created no String pool check will be performed it is also
+   stored in heap memory.
+
